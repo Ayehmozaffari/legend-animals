@@ -1,0 +1,105 @@
+
+*{
+    font-family: "Sansita Swashed", system-ui;
+    font-optical-sizing: auto;
+  
+}
+body{
+    background: linear-gradient(40deg,rgb(15, 15, 15),rgb(23, 24, 23),rgb(19, 19, 19));
+}
+#products{
+    
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10%;
+    justify-content: space-between;
+   flex-wrap: nowrap;
+}
+p{
+    color: rgb(54, 173, 70);
+  
+}
+h2{
+    padding-top: 40px;
+    color: aliceblue;
+}
+h6{
+    color: #fff;
+    font-weight:200 ;
+}
+img{
+    border-radius: 20px;
+}
+img:hover{
+    filter:sepia(1);  
+    transition: 0.3s;
+}
+.productItem{
+    background: rgb(19, 18, 19);
+    padding: 30px;
+    border-radius: 20px;
+}
+.productItem:hover{
+    transform: translate(10px);
+    transition: 0.3s;
+    box-shadow: rgb(255, 255, 255) 1px 1px 1px ,
+    rgb(124, 165, 255) 4px 3px 5px,
+    rgb(35, 88, 201) 3px 3px 4px ;
+    border:solid rgba(90, 89, 89, 0.575) 0.34px;
+}
+/* .first-product{
+    background: rgb(19, 18, 19);
+    padding: 30px;
+    border-radius: 20px;
+}
+.first-product:hover{
+    transform: translate(10px);
+    transition: 0.3s;
+    box-shadow: rgb(255, 255, 255) 1px 1px 1px ,
+    rgb(124, 165, 255) 4px 3px 5px,
+    rgb(35, 88, 201) 3px 3px 4px ;
+    border:solid rgba(90, 89, 89, 0.575) 0.34px;
+}
+.third-product{
+    background: rgb(19, 18, 19);
+    padding: 30px;
+    border-radius: 20px;
+   
+}
+.third-product:hover{
+    transform: translate(10px);
+    transition: 0.3s;
+    box-shadow: rgb(255, 255, 255) 1px 1px 1px ,
+    rgb(124, 165, 255) 4px 3px 5px,
+    rgb(35, 88, 201) 3px 3px 4px ;
+    border:solid rgba(90, 89, 89, 0.575) 0.34px;
+}
+.three-product{
+    background: rgb(19, 18, 19);
+    padding: 40px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.three-product:hover{
+    transform: translate(10px);
+    transition: 0.3s;
+    box-shadow: rgb(255, 255, 255) 1px 1px 1px ,
+    rgb(124, 165, 255) 4px 3px 5px,
+    rgb(35, 88, 201) 3px 3px 4px ;
+    border:solid rgba(90, 89, 89, 0.575) 0.34px;
+}
+.four-product{
+    background: rgb(19, 18, 19);
+    padding: 40px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.four-product:hover{
+    transform: translate(10px);
+    transition: 0.3s;
+    box-shadow: rgb(255, 255, 255) 1px 1px 1px ,
+    rgb(124, 165, 255) 4px 3px 5px,
+    rgb(35, 88, 201) 3px 3px 4px ;
+    border:solid rgba(90, 89, 89, 0.575) 0.34px;
+} */
